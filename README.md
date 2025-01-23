@@ -8,5 +8,5 @@
     <li><strong> HTML5</strong></li>
     <li><strong> CSS3</strong></li>
     <li><strong> JavaScript</strong></li>
-    <li><strong> Tailwind</strong></li>
+    <li><strong> </strong></li>
  </ul>
