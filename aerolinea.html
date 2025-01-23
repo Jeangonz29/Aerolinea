@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeronau-tip</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/aerolinea.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="titulo">Reservación de Vuelos con Aeronau-tip</h1>
+    <form id="formulario">
+        <div class="container">
+            <label for="name">Ingrese su nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Ejemplo: Jean" required>
+        </div>
+
+        <div class="container">
+            <label for="Localidad">Donde se encuentra:</label>
+            <input type="text" id="Localidad" name="Localidad" placeholder="Ejemplo: Venezuela" required>
+        </div>
+
+        <div class="container">
+            <label for="Destino">Destino a viajar:</label>
+            <input type="text" id="Destino" name="Destino" placeholder="Ejemplo: Argentina" required>
+        </div>
+
+        <div class="container">
+            <label for="fecha_ida">Fecha de Ida:</label>
+            <input type="date" id="fecha_ida" name="fecha_ida"  required>
+        </div>
+
+        <div class="container">
+            <label for="fecha_regr">Fecha de Regreso:</label>
+            <input type="date" id="fecha_regr" name="fecha_regr" required>
+        </div>
+         
+        <button class="btn" type="submit">Reservar</button>
+        
+       
+    </form>
+
+    <div id="resultado" class="resultado"></div>
+    <h2>Reservaciones de vuelos</h2>
+    <table id="ReservacionesTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Fecha de Ida</th>
+                <th>Fecha de Regreso</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+
+        <tbody></tbody>
+    </table>
+    
+    <script src="aerolinea.js"></script>
+</body>
+</html>

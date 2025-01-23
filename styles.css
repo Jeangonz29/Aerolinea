@@ -1,0 +1,86 @@
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(img/fondo.jpeg);
+    background-size:cover;
+    background-position: center;
+    padding: 20px;
+}
+#formulario {
+    margin-bottom: 10px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(10, 89, 92);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(10, 89, 92);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.container {
+    display: block;
+    margin-bottom: 6px;
+}
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing:border-box;
+}
+.btn {
+    padding: 20px 300px;
+    font-size: 16px;
+    display: block;
+    margin: 1rem auto;
+    background-color: lightblue;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+.btn:hover {
+    background-color: rgb(37, 55, 85);
+    color: rgb(27, 243, 243);
+    box-shadow: 0 0 25px black;
+}
+#ReservacionesTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #07404b;
+    background-color: rgba(6, 52, 71, 0.232);
+    text-align: left;
+}
+
+.ListoTachado{
+    text-decoration:line-through;
+}
+
+.BtnL-E button{
+    margin-right: 5px;
+    background-color: gray;
+    cursor: pointer;
+}
+.BtnL-E button:hover{
+    background-color: rgb(37, 55, 85);
+    color: white;
+}
+
+.error {
+    background-color: #b7322c;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
